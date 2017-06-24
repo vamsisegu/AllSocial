@@ -14,6 +14,7 @@
 		AC4442411ECA58AF00FF2A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC44423F1ECA58AF00FF2A95 /* LaunchScreen.storyboard */; };
 		AC44424C1ECA58AF00FF2A95 /* AllSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44424B1ECA58AF00FF2A95 /* AllSocialTests.swift */; };
 		AC4442571ECA58AF00FF2A95 /* AllSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4442561ECA58AF00FF2A95 /* AllSocialUITests.swift */; };
+		CB6952F71EFE3848000C101D /* lildog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6952F61EFE3848000C101D /* lildog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC4442521ECA58AF00FF2A95 /* AllSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4442561ECA58AF00FF2A95 /* AllSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSocialUITests.swift; sourceTree = "<group>"; };
 		AC4442581ECA58AF00FF2A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6952F61EFE3848000C101D /* lildog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lildog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AC44423A1ECA58AF00FF2A95 /* Main.storyboard */,
 				AC44423D1ECA58AF00FF2A95 /* Assets.xcassets */,
 				AC44423F1ECA58AF00FF2A95 /* LaunchScreen.storyboard */,
+				CB6952F61EFE3848000C101D /* lildog.jpg */,
 				AC4442421ECA58AF00FF2A95 /* Info.plist */,
 			);
 			path = AllSocial;
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					AC4442321ECA58AF00FF2A95 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VG6A6RP6FM;
 						ProvisioningStyle = Automatic;
 					};
 					AC4442461ECA58AF00FF2A95 = {
@@ -232,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6952F71EFE3848000C101D /* lildog.jpg in Resources */,
 				AC4442411ECA58AF00FF2A95 /* LaunchScreen.storyboard in Resources */,
 				AC44423E1ECA58AF00FF2A95 /* Assets.xcassets in Resources */,
 				AC44423C1ECA58AF00FF2A95 /* Main.storyboard in Resources */,
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG6A6RP6FM;
 				INFOPLIST_FILE = AllSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.application.VamShiv.AllSocial;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG6A6RP6FM;
 				INFOPLIST_FILE = AllSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.application.VamShiv.AllSocial;
@@ -507,6 +514,7 @@
 				AC44425D1ECA58AF00FF2A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC44425E1ECA58AF00FF2A95 /* Build configuration list for PBXNativeTarget "AllSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				AC4442601ECA58AF00FF2A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC4442611ECA58AF00FF2A95 /* Build configuration list for PBXNativeTarget "AllSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				AC4442631ECA58AF00FF2A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
